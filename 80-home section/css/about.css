@@ -1,0 +1,350 @@
+
+
+
+.header_content {
+  overflow: hidden;
+}
+.content_area {
+  margin-top: 24px;
+}
+.about_area > h2 {
+  background: rgba(0, 0, 0, 0.66) none repeat scroll 0 0;
+  border-radius: 34px;
+  color: #fff;
+  font-size: 40px;
+  padding: 12px;
+  text-align: center;
+}
+.about_area > img {
+  box-shadow: 3px 3px 6px 3px #fff;
+  height: 460px;
+  width: 100%;
+}
+
+
+/*======================    ==========================*/
+/*
+Basic Information:
+--------------------
+
+Project Name   	:	NGH school Template
+Author       	: 	NGH school
+Our Site 		: 	https://youthenlight.com
+Description 	: 	This is html5 School template
+Developed By 	: 	Mahbubul Haq
+Phone           :   01515672069
+
+
+-----------------------------------------------------------------------------------*/
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.bg_img_full_body{
+    background: url("../img/bg.jpg");
+}
+.fix{
+    margin: 0;
+    padding: 0;
+}
+.no_padding{
+    padding: 0;
+}
+.no_margin{
+    margin: 0;
+}
+.bg_color {
+  background: rgba(0, 0, 0, 0.70) none repeat scroll 0 0;
+  padding-bottom: 6px;
+  padding-top: 6px;
+
+}
+.header_logo {
+  padding-top: 9px;
+  text-align: center;
+}
+.header_area a img {
+  height: 95px;
+  width: 100px;
+}
+.header_area {
+  padding-top: 25px;
+}
+/*================== 2. School name ===============*/
+.school_name h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Philosopher;
+  font-size: 40px;
+  line-height: 47px;
+}
+.school_name > p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+    color: rgba(255, 255, 255, .70);
+}
+.school_code {
+  font-family: Philosopher;
+  font-size: 16px;
+  padding-top: 31px;
+  text-align: right;
+  color: rgba(255, 255, 255, .70);
+    font-weight: 400;
+    
+}
+/*================== 3. Nav Manu ===============*/
+.nav_color {
+  background: rgba(51, 51, 51, 0.75) none repeat scroll 0 0;
+}
+
+.nav_button ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_button ul li {
+  display: inline-block;
+  text-align: center;
+}
+.nav_button a {
+  border-radius: 26px;
+  color: white;
+  display: block;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 500;
+  height: 50px;
+  padding: 12px 35px;
+  text-decoration: none;
+    position: relative;
+}
+.nav_button a::after {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 1px;
+  transition: 1s;
+  visibility: hidden;
+} 
+.nav_button a:hover::after{
+    visibility: visible;
+     width: 100%;
+}
+.nav_button a:hover {
+  background: rgba(50, 148, 246, 1) none repeat scroll 0 0;
+  border-radius: 0;
+  color: white;
+  transition: all 1s ease 0s;
+}
+.search_ber {
+  float: right;
+  padding-top: 8px;
+}
+.search_ber input {
+  height: 30px;
+  width: 200px;
+    padding-right: 0;
+}
+.searchsubmit {
+  height: 33px;
+  width: 51px;
+    padding-left: 0;
+}
+/*  ======================  Head Line ================*/
+.head_line_color {
+  background: rgba(51, 153, 255, 0.95) none repeat scroll 0 0;
+}
+.headline_text {
+  display: flex;
+}
+.headline_text > p {
+  font-size: 16px;
+  text-align: center;
+  width: 78px;
+    line-height: 28px;
+    margin: 0;
+}
+.headline_text marquee {
+  color: white;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/*  ======================  Content Area Left ================*/
+.wel_speech_area {
+  background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+  height: 320px;
+  overflow: auto;
+}
+.wel_speech_area h3 {
+  background: rgba(51, 153, 255, 0.90) none repeat scroll 0 0;
+  font-family: Philosopher;
+  font-size: 23px;
+  margin: 0;
+  padding: 4px 0 4px 10px;
+    color: #fff;
+}
+
+.wel_speech_area > p {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 8px 20px;
+  text-align: justify;
+}
+.recent_con_area {
+    
+  overflow: auto;
+    margin-top: 20px;
+}
+.recent_con_area h3 {
+  background: rgba(51, 153, 255, 0.90) none repeat scroll 0 0;
+  font-family: Philosopher;
+  font-size: 23px;
+  margin-bottom: 15px;
+  padding: 4px 0 4px 10px;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.recent_text_img {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+  overflow: auto;
+     margin-right: 1px;
+    width: 98%;
+}
+.recent_text_img2 {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+  overflow: auto;
+      margin-left: 7px;
+    width: 98%;
+}
+.recent_text_img img,.recent_text_img2 img {
+ height: 215px;
+    padding: 0 7px;
+    width: 100%;
+}
+.recent_text_img p, .recent_text_img2 p {
+  font-family: roboto;
+  font-size: 16px;
+  height: 280px;
+  overflow: auto;
+  padding: 10px 8px;
+  text-align: justify;
+}
+/*  ======================  Content Area Right ================*/
+.important_notice {
+  border: 1px solid rgba(51, 153, 255, 0.90);
+  height: 377px;
+  overflow: auto;
+     background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.important_link h3, .important_notice h3, .log_in h3 {
+  background: rgba(51, 153, 255, 0.90) none repeat scroll 0 0;
+  font-family: Philosopher;
+  font-size: 23px;
+  margin: 0 0 10px;
+  padding: 4px 0 4px 10px;
+    color: #fff;
+}
+.important_notice > h6 {
+  font-size: 19px;
+  line-height: 191px;
+  text-align: center;
+}
+.important_link {
+  border: 1px solid rgba(51, 153, 255, 0.90);
+  margin-top: 22px;
+      background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+    padding-bottom: 12px;
+}
+.important_link ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.important_link ul li{
+    text-decoration: none;
+}
+.important_link li a {
+  display: #fff;
+  font-family: roboto;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0 10px 35px;
+  text-decoration: none;
+
+}
+.important_link a:hover {
+  background: rgba(0, 0, 0, 0.09) none repeat scroll 0 0;
+  border-bottom: 1px solid blue;
+  color: blue;
+}
+.important_link a .fa {
+  margin-left: 120px;
+    visibility: hidden;
+}
+.important_link a:hover .fa{
+    margin-left: 5px;
+    visibility: visible;
+    transition: 1s;
+}
+.log_in {
+  margin-top: 22px;
+  border: 1px solid rgba(51, 153, 255, 0.6);
+      background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+  border-radius: 0 0 10px 10px;
+}
+.log_in > h3 {
+  margin-bottom: 23px;
+}
+.log_in form {
+  margin-left: 25px;
+    font-family: roboto;
+}
+.user_name {
+  margin-bottom: 15px;
+    width: 230px;
+}
+.passwoard_text {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 230px;
+}
+.log_in button {
+  margin-bottom: 36px;
+}
+/*========================   Footer Area ==================*/
+.footer_area {
+  background: rgba(51, 51, 51, 0.87) none repeat scroll 0 0;
+  margin-top: 30px;
+  text-align: center;
+}
+.copy-right {
+  color: #fff;
+  font-family: Philosopher;
+  padding-top: 12px;
+}
+
+
+
+
+
+
+
+

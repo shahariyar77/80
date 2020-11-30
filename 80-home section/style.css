@@ -1,0 +1,138 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.single-portfolio-item {
+	background-image: url(img/bg.jpg);
+	height: 400px;
+	margin-left: 2%;
+	width: 48%;
+	float: left;
+	margin-bottom: 2%;
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+}
+
+
+/*========================   Nav manu ==================*/
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.header-area a {
+  color: #333;
+}
+.main-manu {
+  text-align: right;
+}
+.main-manu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-manu li {
+  display: inline-block;
+}
+.main-manu li a {
+  font-size: 18px;
+  padding-right: 0;
+  padding: 20px;
+  padding-left: 47px;
+  display: block;
+}
+.hero-area {
+  background: #1d1e20;
+  color: #777;
+}
+hero {
+  color: #fff;
+}
+.header-area.header-absulote a {
+  color: #fff;
+}
+.hero-area h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.hero-area a {
+  color: #777;
+}
+.hero-area h2 span {
+  color: #e2b935;
+}
+.header-area.header-absulote {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 60px 0;
+}
+.hero-area {
+  padding-bottom: 100px;
+  padding-top: 220px;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.section-padding.yellow-bg {
+  background-color: #e2b935;
+  color: #fff;
+}
+.portfolio-list {
+  margin-left: -2%;
+  overflow: hidden;
+}
+.single-portfolio-item.smail-item {
+  width: 36%;
+}
+.section-padding.dark-bg {
+  background: #1d1e20;
+  color: #777;
+}
+.section-padding.dark-bg a {
+  color: #e2b935;
+}
+.cta-text {
+  font-size: 20px;
+  line-height: 2;
+}
+.cta-text h2 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+a.border-btn {
+  display: inline-block;
+  border: 1px solid;
+  padding: 2px 38px;
+  margin-top: 40px;
+}
+.foter-area {
+  background: #1d1e20;
+  color: #777;
+  border-top: 1px solid#333;
+  padding: 20px 0 15px;
+}
+.social-icon {
+  font-size: 20px;
+  margin-top: -5px;
+}
+.social-icon a {
+  color: #777;
+  padding-left: 16px;
+}
+
+
+
+
+
+
